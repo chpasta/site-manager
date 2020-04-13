@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+ 
+    <img src="./img/pepsi-logo.png" alt="pepsi-logo">
+       
+    <form action="test.php" method="GET">
+        <div class="beverage">
+            <h3 style="background-color: rgb(221, 76, 76);"  >Mark how many items you need</h3>
+            <span class="bev" style="background-color: powderblue;">
+                    <label for="pepsi" >Pepsi</label>
+                    <input type="number" name="pepsi" id="pepsi" min=0 max=30><br>
+            
+                    <label for="pepsi_diete">Pepsi-Diet</label>
+                    <input type="number" name="pepsi_diete" id="pepsi_diete" min=0 max=30><br>
+            
+                    <label for="max">Max</label>
+                    <input type="number" name="max" id="max" min=0 max=30><br>
+                    
+                    <label for="pepsi_decaf">Pepsi-Decaf</label>
+                    <input type="number" name="pepsi_decaf" id="pepsi_decaf" min=0 max=30><br>
+            
+                    <label for="pepsi-diete-decaf">Pepsi Diete Decaf</label>
+                    <input type="number" name="pepsi-diete-decaf" id="pepsi-diete-decaf" min=0 max=30><br>
+                
+            </span><br>
+
+            <span class="bev"  style="background-color: purple;">
+                <label for="sprite">Sprite</label>
+                <input type="number" name="sprite" id="sprite" min=0 max=30><br>
+                <label for="sprite-diete">Sprite Diete</label>
+                <input type="number" name="sprite-diete" id="sprite-diete" min=0 max=30><br>
+            </span><br>
+        
+            <span class="bev" style="background-color: rgb(15, 128, 0);">
+                <label for="shweppes">Shweppes</label>
+                <input type="number" name="shweppes" id="shweppes" min=0 max=30><br>
+
+                <label for="shweppes-ale">Shweppes ALE</label>
+                <input type="number" name="shweppes-ale" id="shweppes-ale" min=0 max=30><br>
+
+                <label for="shweppes-soda">Shweppes SODA</label>
+                <input type="number" name="shweppes-soda" id="shweppes-soda" min=0 max=30><br>
+            </span><br>
+
+            <span class="bev"  style="background-color: rgb(0, 255, 98);">
+                <label for="crush">Sprite Diete</label>
+                <input type="number" name="crush" id="crush" min=0 max=30><br>
+
+                <label for="crush_diete">Crush Diete</label>
+                <input type="number" name="crush_diete" id="crush_diete" min=0 max=30><br>
+
+                <label for="crush_mousse">Crush Mousse</label>
+                <input type="number" name="crush_mousse" id="crush_mousse" min=0 max=30><br>
+            </span><br>
+
+            <span class="bev" style="background-color: yellow;" >
+                <label for="mug">Mug</label>
+                <input type="number" name="mug" id="mug" min=0 max=30><br>
+            </span><br>
+
+            <span class="bev" style="background-color: rgb(0, 140, 255);" >
+                <label for="doc_pepper">Dr Pepper</label>
+                <input type="number" name="doc_pepper" id="doc_pepper" min=0 max=30><br>
+
+                <label for="doc_pepper_diete">Dr Pepper Diete</label>
+                <input type="number" name="doc_pepper_diete" id="doc_pepper_diete" min=0 max=30><br>
+
+            </span><br>
+
+            <span class="bev" style="background-color: rgba(19, 57, 138, 0.646);">
+                <table>
+
+                </table>
+                <tr>
+                    <td><label for="brisk">Brisk</label></td>
+
+                </tr>
+                <tr>
+                    <td><input type="number" name="brisk" id="brisk" min=0 max=30><br></td>
+                </tr>
+            </span>
+
+        <br><input type="submit" value="submit">
+        </div>
+    </form>
+
+    <script src="./app.js" ></script>
+
+</body>
+</html>

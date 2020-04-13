@@ -1,0 +1,16 @@
+body {
+    background-image: "pepsi-logo.png";
+}
+
+.beverage {
+    /* background-color: aquamarine; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.bev {
+    border-style: solid 5px;
+}
